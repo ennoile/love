@@ -63,32 +63,38 @@
         width: 130%; 
         height: auto; 
         opacity: 0.3;
-        }
+    }
 
-        .image-container {
-            position: absolute; /* Permite que a imagem seja posicionada em relação ao seu container */
-            bottom: 0; /* Alinha a imagem à parte inferior */
-            right: 0; /* Alinha a imagem à parte direita */
-            width: 100px; /* Largura da imagem */
-            height: auto; /* Mantém a proporção da imagem */
-        }
-        .rodape-imagem {
-            display: flex;
-            justify-content: center;  
-            align-items: center;
-            width: 100%; 
-        }
-        .rodape-imagem img{ 
-            padding-top: 10%;
-            position: relative;
-             width: 100px;
-             opacity: 100;
-    
+    .image-container {
+        position: absolute; /* Permite que a imagem seja posicionada em relação ao seu container */
+       bottom: 0; /* Alinha a imagem à parte inferior */
+        right: 0; /* Alinha a imagem à parte direita */
+        width: 100px; /* Largura da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+     }
+    .rodape-imagem {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        width: 100%; 
+    }
+    .rodape-imagem img{ 
+        padding-top: 0%;
+        position: relative;
+         width: 100px;
+         opacity: 100;
+    }
+    .foto_rodape {
+        position: absolute; 
+        bottom: -50%; 
+        right: 0%; 
+        width: 130%; 
+        height: auto; 
         }
 </style>
 <body>
     <div class="video_centro">
-        <video src="video/video.mp4" autoplay controls class="videoo"> 
+        <video src="video/video.mp4"  controls class="videoo"> 
     </div>
 
     <div class="centralizado">
@@ -109,6 +115,7 @@
     <div class="rodape-imagem">
         <img src="rodape/rodape.jpg">
     </div>
+    <img src="rodape-foto/fotos.jpg" class="foto_rodape">
 </body>
     
 </html>
